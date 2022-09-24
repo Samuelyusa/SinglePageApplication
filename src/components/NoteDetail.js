@@ -1,13 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { showFormattedDate } from '../utils';
 
-function NoteDetail({ id, title, createdAt, body, archived }) {
+function NoteDetail({ title, createdAt, body, archived }) {
     return (
-        <div>
-            <h2>{title}</h2>
-            <h5>{createdAt}</h5>
+        <div className='detail-page'>
+            <h2 className='detail-page__title'>{title}</h2>
+            <h5 className='detail-page__createdAt'>{ showFormattedDate(createdAt)}</h5>
             <h6>{ archived }</h6>
-            <p>{body}</p>
+            <p className='detail-page__body'>{body}</p>
         </div>
     );
 }

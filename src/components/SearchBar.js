@@ -30,7 +30,7 @@ class SearchBar extends React.Component {
 
   render() {
     return (
-        <form onSubmit={this.onSubmitHandler}>
+        <form onSubmit={this.onSubmitHandler} className="search-bar">
             <input
             type="text"
             placeholder="search movie by title"
