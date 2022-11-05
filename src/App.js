@@ -6,6 +6,7 @@ import Navigation from './components/Navigation';
 import HomePage from './pages/HomePage';
 import SearchPage from './pages/SearchPage';
 import DetailNotePage from './pages/DetailNotePage';
+import PageNotFound from './pages/PageNotFound';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/add" element={<AddNotePage />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="/notes/:id" element={<DetailNotePage />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </main>
     </div>

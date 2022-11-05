@@ -269,6 +269,20 @@ main {
   color: var(--on-background);
 }
 
+.page-not-found {
+  display: flex;
+  padding: 100px;
+  align-content: center;
+  justify-content: center;
+}
+.page-not-found__body {
+  text-align: center;
+}
+.page-not-found__body p {
+  padding: 5px;
+}
+
+
 @media screen and (min-width: 650px) {
   .notes-list {
     grid-template-columns: repeat(2, 1fr);
