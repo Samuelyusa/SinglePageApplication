@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import AddNotePage from './pages/AddNotesPage';
+import AddNotePage from './pages/AddNotePage';
 import ArchivePage from './pages/ArchivePage';
 import Navigation from './components/Navigation';
 import HomePage from './pages/HomePage';
