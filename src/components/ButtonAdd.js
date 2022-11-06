@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import PropTypes from 'prop-types';
+
 
 function ButtonAdd () {
     const navigate = useNavigate();
@@ -12,10 +12,6 @@ function ButtonAdd () {
                         </svg>
             </button>
         )
-}
-
-ButtonAdd.propTypes = {
-    navigate: PropTypes.func,
 }
 
 export default ButtonAdd;

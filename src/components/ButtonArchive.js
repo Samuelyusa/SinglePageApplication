@@ -20,8 +20,6 @@ function ButtonArchive ({id, isArchive}) {
 ButtonArchive.propTypes = {
     id: PropTypes.string.isRequired,
     isArchive: PropTypes.bool.isRequired,
-    archiveNote: PropTypes.func,
-    navigate: PropTypes.func,
 }; 
 
 export default ButtonArchive;

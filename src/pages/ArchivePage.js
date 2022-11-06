@@ -3,6 +3,7 @@ import { useSearchParams } from 'react-router-dom';
 import NoteList from '../components/NoteList';
 import SearchBar from '../components/SearchBar';
 import { getArchivedNotes } from '../utils/local-data';
+import PropTypes from 'prop-types';
 
 function ArchivedPageWrapper() {
     const [searchParams, setSearchParams] = useSearchParams();
@@ -52,4 +53,8 @@ class ArchivedPage extends React.Component {
     }
 }
 
+ArchivedPage.propTypes = {
+    defaultKeyword: PropTypes.string,
+    keywordChange: PropTypes.func.isRequired
+}
 export default ArchivedPageWrapper;

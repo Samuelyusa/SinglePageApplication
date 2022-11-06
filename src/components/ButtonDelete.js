@@ -32,8 +32,6 @@ function ButtonDelete ({id, isArchive}) {
 ButtonDelete.propTypes = {
     id: PropTypes.string.isRequired,
     isArchive: PropTypes.bool.isRequired,
-    deleteNote: PropTypes.func,
-    navigate: PropTypes.func,
 }; 
 
 export default ButtonDelete;

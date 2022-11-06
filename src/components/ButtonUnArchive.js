@@ -22,8 +22,6 @@ function ButtonUnArchive ({id, isArchive}) {
 ButtonUnArchive.propTypes = {
     id: PropTypes.string.isRequired,
     isArchive: PropTypes.bool.isRequired,
-    unarchiveNote: PropTypes.func,
-    navigate: PropTypes.func,
 };
 
 export default ButtonUnArchive;
