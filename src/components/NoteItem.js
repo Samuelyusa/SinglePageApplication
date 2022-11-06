@@ -17,10 +17,10 @@ return (
 }
 
 NoteItem.propTypes = {
-id: PropTypes.string.isRequired,
-title: PropTypes.string.isRequired,
-createdAt: PropTypes.string.isRequired,
-body: PropTypes.string.isRequired
+    id: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    createdAt: PropTypes.string.isRequired,
+    body: PropTypes.string.isRequired
 };
 
 export default NoteItem;
