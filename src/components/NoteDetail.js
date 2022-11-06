@@ -14,7 +14,7 @@ function NoteDetail({ id, title, createdAt, body, archived }) {
             <div className="detail-page__action">
                 <ButtonArchive id={id} isArchive={archived} />
                 <ButtonUnArchive id={id} isArchive={archived}/>
-                <ButtonDelete id={id} />
+                <ButtonDelete id={id} isArchive={archived}/>
             </div>
         </div>
     );

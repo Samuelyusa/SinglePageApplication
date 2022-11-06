@@ -14,9 +14,9 @@ class PageNotFound extends React.Component {
             <div className='page-not-found'>
                 <div className='page-not-found__body'>
                     <h1>Ooops!</h1>
-                    <h2>404 Page Not Found</h2>
-                    <p>The page you're looking for might have been removed</p>
-                    <p>had its name changed or is temporarily unavailable</p>
+                    <h2>404 Halaman Tidak Ditemukan</h2>
+                    <p>Halaman yang Anda cari mungkin telah dihapus</p>
+                    <p>namanya berubah atau untuk sementara tidak tersedia.</p>
                 </div>
             </div>
             

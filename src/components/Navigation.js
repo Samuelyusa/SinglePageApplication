@@ -6,16 +6,10 @@ return (
     <nav>
     <ul>
         <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Catatan Aktif</Link>
         </li>
         <li>
-            <Link to="/archive">Archive</Link>
-        </li>
-        <li>
-            <Link to="/add">Add Note</Link>
-        </li>
-        <li>
-            <Link to="/search">Search Notes</Link>
+            <Link to="/arsip">Catatan Arsip</Link>
         </li>
     </ul>
     </nav>
